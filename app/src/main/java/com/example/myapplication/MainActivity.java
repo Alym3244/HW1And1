@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String value = etValue.getText().toString().trim();
                 if (value.isEmpty()){
-                   // etValue.setError("немедленно ведите ваш текст!");
+                    etValue.setError("немедленно ведите ваш текст!");
                     return;
                 }
                 else { txtValue.setText(value);}
